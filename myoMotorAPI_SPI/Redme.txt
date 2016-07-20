@@ -1,0 +1,22 @@
+Installing the MyoMotorAPI_SPI shared library
+---------------------------------------------
+
+The Myo MotorAPI_SPI needs the ftd2xx and libft4222 shared librarys:
+    - ftd2xx    : http://www.ftdichip.com/Drivers/D2XX.htm
+    - libft4222 : http://www.ftdichip.com/Products/ICs/FT4222H.html
+
+1. Install the ftd2xx and libft4222 shared librarys
+
+2. Run the installation script:
+		./install.sh
+
+Building and run the example
+----------------------------
+
+1. cd examples
+
+2. cmake source
+
+3. make
+
+4. sudo ./example
