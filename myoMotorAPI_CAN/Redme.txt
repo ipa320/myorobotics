@@ -1,0 +1,23 @@
+Installing the MyoMotorAPI_CAN shared library
+---------------------------------------------
+ 
+The Myo MotorAPI_CAN needs the CANlib SDK:
+    - CANlib : https://www.kvaser.com/linux-drivers-and-sdk/
+
+1. Install the ftd2xx and libft4222 shared librarys
+
+2. Run the installation script:
+		./install.sh
+
+Building and run the example
+----------------------------
+
+1. Replace the motorTXID and motorRXID (main.cpp) with your motor-settings
+
+2. cd examples
+
+3. cmake source
+
+4. make
+
+5. sudo ./example

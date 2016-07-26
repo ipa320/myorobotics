@@ -1,0 +1,2 @@
+MyoMotor	KEYWORD1
+sendSPIFrame	KEYWORD2
